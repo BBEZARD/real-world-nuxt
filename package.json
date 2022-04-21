@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"json-server --watch db.json --port 3004\"  \"nuxt\"",
+    "dev": "concurrently \"nuxt\" \"json-server --watch db.json --port 3004 --delay 2000\" ",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
